@@ -3,14 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app-root/app.component';
-import { GreetComponent } from './cmps/greet/greet.component';
 import { ShowTimeComponent } from './cmps/show-time/show-time.component';
+import { CountDownComponent } from './cmps/count-down/count-down.component';
+import { ShowCoordsComponent } from './cmps/show-coords/show-coords.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GreetComponent,
-    ShowTimeComponent
+    ShowTimeComponent,
+    CountDownComponent,
+    ShowCoordsComponent
   ],
   imports: [
     BrowserModule,

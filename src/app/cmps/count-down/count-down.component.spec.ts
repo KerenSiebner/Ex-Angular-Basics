@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GreetComponent } from './greet.component';
+import { CountDownComponent } from './count-down.component';
 
-describe('GreetComponent', () => {
-  let component: GreetComponent;
-  let fixture: ComponentFixture<GreetComponent>;
+describe('CountDownComponent', () => {
+  let component: CountDownComponent;
+  let fixture: ComponentFixture<CountDownComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GreetComponent ]
+      declarations: [ CountDownComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(GreetComponent);
+    fixture = TestBed.createComponent(CountDownComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
