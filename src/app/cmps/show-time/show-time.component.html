@@ -1,0 +1,7 @@
+<div class="show-time" [class.dark]="isDark" (click)="isDark=!isDark">
+    <p>{{time | date: 'EEEE'}}</p>
+    <p>{{time | date: 'd / M / yyyy'}}</p>
+    <p>{{time | date: 'hh:mm a'}}</p>
+    <p>{{season}}</p>
+    <img src="assets/img/{{season}}.png" alt="{{season}}">
+</div>

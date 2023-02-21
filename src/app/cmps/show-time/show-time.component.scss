@@ -1,0 +1,9 @@
+.show-time {
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+
+    &.dark {
+        background-color: rgba(0, 0, 0, 0.302);
+    }
+}
